@@ -40,7 +40,6 @@ public class baiduTest {
         basic.wait(5000);
         for (int i = 0;i < 66;i++) {
             touch.scrollUp();
-            basic.takeScreenshot();
             basic.wait(10000);
         }
         key.pressHome();
