@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Power Comsumption Test</string>
+    <string name="camera_test">Camera Test</string>
+    <string name="weibo_test">Weibo Test</string>
+    <string name="baidu_test">Baidu Test</string>
+    <string name="game_test">Game Test</string>
+    <string name="music_player_test">Music Player Test</string>
+    <string name="qq_test">QQ Test</string>
+    <string name="video_player_test">Video Player Test</string>
+    <string name="voice_call_test">Voice Call Test</string>
+    <string name="wechat_test">Wechat Test</string>
+    <string name="ireader_test">iReader Test</string>
+</resources>

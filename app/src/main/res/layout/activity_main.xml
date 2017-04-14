@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context="com.gionee.powercomsumptiontest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/baidu_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runBaiduTest"
+            android:text="@string/baidu_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/camera_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runCameraTest"
+            android:text="@string/camera_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/game_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runGameTest"
+            android:text="@string/game_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/ireader_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runiReaderTest"
+            android:text="@string/ireader_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/musicplayer_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runmusicPlayerTest"
+            android:text="@string/music_player_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/qq_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runqqTest"
+            android:text="@string/qq_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/videoplayer_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runvideoPlayerTest"
+            android:text="@string/video_player_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/voicecall_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runvoicecallTest"
+            android:text="@string/voice_call_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/wechat_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runwechatTest"
+            android:text="@string/wechat_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/weibo_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:onClick="runweiboTest"
+            android:text="@string/weibo_test"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</RelativeLayout>

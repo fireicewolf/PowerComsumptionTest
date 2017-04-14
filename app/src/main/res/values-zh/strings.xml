@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">续航测试</string>
+    <string name="camera_test">相机测试</string>
+    <string name="weibo_test">微博测试</string>
+    <string name="baidu_test">百度测试</string>
+    <string name="game_test">游戏测试</string>
+    <string name="music_player_test">音乐阅读</string>
+    <string name="qq_test">QQ测试</string>
+    <string name="video_player_test">视频测试</string>
+    <string name="voice_call_test">通话测试</string>
+    <string name="wechat_test">微信测试</string>
+    <string name="ireader_test">阅读测试</string>
+</resources>
