@@ -35,7 +35,7 @@ public class voicecallTest {
     }
 
     @Test
-    public void voicecall() {
+    public void voicecall() throws RemoteException {
         basic.launch("com.android.contacts",5000);
         basic.wait(5000);
         touch.clickByObjectText("拨号",5000);
@@ -51,11 +51,11 @@ public class voicecallTest {
             basic.wait(1000);
             touch.clickByObjectResourceID("com.android.contacts:id/six",5000);
             basic.wait(1000);
-            touch.clickByObjectResourceID("com.android.contacts:id/gn_button_dial",5000);
+            touch.clickByObjectResourceID("com.android.contacts:id/dialButton",5000);
             basic.wait(3000);
             key.pressPower();
             basic.wait(30000);
-            key.pressPower();
+            basic.screenOn();
             basic.wait(3000);
             touch.clickByObjectResourceID("com.android.incallui:id/endButton",5000);
             basic.wait(10000);

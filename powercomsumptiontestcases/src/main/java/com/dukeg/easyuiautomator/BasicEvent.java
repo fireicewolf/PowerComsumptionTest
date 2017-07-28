@@ -64,7 +64,7 @@ public class BasicEvent {
         // Launch the blueprint app
         Context context = InstrumentationRegistry.getContext();
         final Intent intent = context.getPackageManager().getLaunchIntentForPackage(packageName);
-        intent.addFlags(807403520);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
         // Clear out any previous instances
         context.startActivity(intent);
