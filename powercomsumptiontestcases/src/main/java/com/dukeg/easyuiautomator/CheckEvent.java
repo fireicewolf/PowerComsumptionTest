@@ -18,20 +18,24 @@ public class CheckEvent {
     public boolean isObjectExistByRes(String resourceID, long timeout) {
         //UiObject testObject = new UiObject(new UiSelector().resourceId(resourceID));
         //return testObject.exists();
-        return mDevice.wait(Until.hasObject((By.res(resourceID))), timeout);
+        return mDevice.wait(Until.hasObject(By.res(resourceID)), timeout);
     }
 
     //Check the object is exist or not by text
     public boolean isObjectExistByText(String text, long timeout) {
         //UiObject testObject = new UiObject(new UiSelector().text(text));
         //return testObject.exists();
-        return mDevice.wait(Until.hasObject((By.text(text))), timeout);
+        return mDevice.wait(Until.hasObject(By.text(text)), timeout);
     }
 
     //Check the object is exist or not by description
     public boolean isObjectExistByDesc(String desc, long timeout) {
         //UiObject testObject = new UiObject(new UiSelector().description(desc));
         //return testObject.exists();
-        return mDevice.wait(Until.hasObject((By.desc(desc))), timeout);
+        return mDevice.wait(Until.hasObject(By.desc(desc)), timeout);
+    }
+
+    public String findObjectByRes(String resourceID, long timeout) {
+        return mDevice.wait(Until.findObject(By.res(resourceID)), timeout).getText();
     }
 }
